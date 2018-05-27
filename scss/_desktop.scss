@@ -1,0 +1,63 @@
+@import 'variables';
+
+#basic-info {
+    display: flex;
+    justify-content: space-between;
+    
+    .info {
+        margin-left: 15px;
+    }
+}
+
+
+#skills, #interests {
+    margin: 10% 0;
+    
+    li {
+        margin: 3% 5% 3% 0;
+        }
+}
+
+
+.social {
+    a {
+        &:first-child {
+            left: 100px;
+        }
+        
+        &:last-child {
+            left: 100px;
+        }
+    }
+}
+
+
+.back-to-top-arrow {
+    right: 100px;
+    }
+    
+
+footer {
+    .flex {
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

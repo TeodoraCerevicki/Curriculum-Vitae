@@ -1,0 +1,18 @@
+@import 'mobile.scss';
+
+@media screen and (min-width: 576px){
+    @import 'small.scss';
+}
+
+@media screen and (min-width: 768px){
+    @import 'medium.scss';
+}
+
+@media screen and (min-width: 992px){
+    @import 'desktop.scss';
+}
+
+
+@media screen and (min-width: 1200px){
+    @import 'large-desktop';
+}
